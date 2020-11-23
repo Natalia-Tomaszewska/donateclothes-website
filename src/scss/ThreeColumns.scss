@@ -1,0 +1,63 @@
+.threeColumns-section {
+
+  .threeColumns-container {
+
+    margin-top: 5em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    .col1 {
+      display: flex;
+      flex-direction: column;
+
+      .col1-number {
+
+      }
+
+      .col1-heading {
+
+      }
+
+      .col1-paragraph {
+
+      }
+    }
+
+    .col2 {
+      display: flex;
+      flex-direction: column;
+
+      .col2-number {
+
+      }
+
+      .col2-heading {
+
+      }
+
+      .col2-paragraph {
+
+      }
+    }
+
+    .col3 {
+      display: flex;
+      flex-direction: column;
+
+      .col3-number {
+
+      }
+
+      .col3-heading {
+
+      }
+
+      .col3-paragraph {
+
+      }
+    }
+
+  }
+}
