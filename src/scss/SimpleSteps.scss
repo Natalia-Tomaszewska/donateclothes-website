@@ -1,0 +1,79 @@
+.simpleSteps-section {
+
+  .simpleSteps-container {
+display: flex;
+    flex-direction: column;
+    .simpleSteps-container-heading {
+      .simpleSteps-heading {
+
+      }
+
+      .simpleSteps-decoration {
+
+      }
+    }
+
+    .simpleSteps-container-icons {
+display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      .pickClothing {
+
+
+        .icons-heading {
+
+        }
+
+        .icons-paragraph {
+
+        }
+      }
+
+      .packClothing {
+
+
+        .icons-heading {
+
+        }
+
+        .icons-paragraph {
+
+        }
+      }
+
+      .decide {
+
+
+        .icons-heading {
+
+        }
+
+        .icons-paragraph {
+
+        }
+      }
+
+      .courier {
+
+
+        .icons-heading {
+
+        }
+
+        .icons-paragraph {
+
+        }
+      }
+
+    }
+
+    .simpleSteps-container-button {
+
+      .simpleSteps-button {
+
+      }
+    }
+  }
+}
+

@@ -4,6 +4,7 @@ import './App.css';
 import Home from "./Components/Home/Home";
 import Navigation from "./Components/Navigation/Navigation";
 import ThreeColumns from "./Components/ThreeColumns/ThreeColumns";
+import SimpleSteps from "./Components/SimpleSteps/SimpleSteps";
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
 
                 </Switch>
                 <ThreeColumns/>
+                <SimpleSteps/>
             </div>
         </Router>
     )
