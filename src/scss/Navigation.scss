@@ -1,0 +1,55 @@
+.navigation-section {
+  height: 7em;
+  width: 100%;
+  background-color: transparent;
+
+  .navigation-container {
+display: flex;
+flex-direction: column;
+    align-items: flex-end;
+    margin-right:7em;
+    .login-row {
+      display: flex;
+
+
+      .nav1 {
+        display: flex;
+        flex-direction: row;
+        .login-nav {
+          display: flex;
+          list-style: none;
+          .nav-element {
+height: 1.5em;
+margin-left: 2em;
+            a {
+              text-decoration: none;
+            }
+          }
+          .nav-element:hover {
+            border: 2px solid pink;
+            position: inherit;
+
+          }
+        }
+      }
+    }
+
+    .nav-row {
+      display: flex;
+      flex-direction: row;
+      .nav2 {
+        .header-nav {
+          list-style: none;
+display: flex;
+
+          .nav-element {
+            margin-left: 2em;
+            a {
+              text-decoration: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
